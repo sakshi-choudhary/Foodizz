@@ -2,5 +2,4 @@
 Live at : http://sakshichoudhary.me/Foodizz/
 
 A website to search for the restaurants in your city. Made using vanilla javascript using zomato api.
-
-![some-photo](assets/images/Foodizz.jpg)
+![](assets/images/Foodizz.JPG)
