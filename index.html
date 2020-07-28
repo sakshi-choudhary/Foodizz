@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en" >
+<head>
+  <meta charset="UTF-8">
+  <title>Foodizz</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+ <meta charset="utf-8"/><link rel='stylesheet' href='https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/3.3.7/css/bootstrap.min.css'><link rel="stylesheet" href="./style.css">
+<link rel="stylesheet" href="assets/style.css">
+
+<!-- FAVICON -->
+<link rel="apple-touch-icon" sizes="180x180" href="assets/images/apple-touch-icon.png">
+<link rel="icon" type="image/png" sizes="32x32" href="assets/images/favicon-32x32.png">
+<link rel="icon" type="image/png" sizes="16x16" href="assets/images/favicon-16x16.png">
+<link rel="manifest" href="assets/images/site.webmanifest">
+<link href="https://fonts.googleapis.com/css2?family=Volkhov:ital,wght@1,700&display=swap" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css2?family=Nunito:wght@600&display=swap" rel="stylesheet">
+
+
+</head>
+<body>
+
+<div class="jumbotron jumbotron-billboard text-center">
+	<div class="img"></div>
+	<div class="container pt">
+		<div class="text-center">
+			<img class="logo" src='assets/images/android-chrome-512x512.png' />
+			<h2><b>Foodizz</b></h2>
+		</div>
+		<div class="mt-5 text-color">
+			<h1>Find the hottest Restaurants <i class="fas fa-utensils"></i></h1>
+		</div>
+	
+			<div class="col-xs-4 pr-0">
+				<select id="select_id" class="form-control form-control-lg">
+					<option value="Select City" hidden>Select City</option>
+					<option value="4">Bengaluru</option>
+					<option value="3" >Mumbai</option>
+					<option value="1">Delhi</option>			
+					<option value="5">Pune</option>
+				</select>
+			</div>
+			
+			<div class="col-xs-6 pl-0 pr-0">
+				<input id="getText" type="text" class="form-control" placeholder="Search for Restaurant">
+				</div>
+				<button id = "getMessage" class = "btn btn-dark col-xs-2">Search</button>
+			</div>
+		</div>
+	</div>
+	<div class="container">
+		<div>
+			<div class = "message col-md-12"></div>
+		</div>
+	</div>
+
+		<h5 class="text-center"> <i class="fas fa-code"></i> with <i class="fas fa-heart"></i> by
+			<a target="_blank" href="https://www.sakshichoudhary.me/" style="color:whitesmoke;">Sakshi Choudhary</a>	</h5>
+<!-- partial -->
+  <script src='https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js'></script>
+<script src='https://cdnjs.cloudflare.com/ajax/libs/jqueryui/1.12.1/jquery-ui.min.js'></script><script  src="./script.js"></script>
+<script src="assets/script.js"></script>
+<script src="https://kit.fontawesome.com/8be42cff9c.js" crossorigin="anonymous"></script>
+</body>
+</html>
